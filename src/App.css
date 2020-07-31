@@ -36,3 +36,26 @@
     transform: rotate(360deg);
   }
 }
+.app{
+  min-height: 100vh;
+  background:crimson;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+.tweet{
+  height: 200px;
+  width: 200px;
+  background: white;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.blue{
+  color: blue;
+  font-size: 50px;
+}
